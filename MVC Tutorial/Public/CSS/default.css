@@ -1,0 +1,78 @@
+body {
+	background-color: #f5f5f5;
+	background-image: url("http://southsidegr.org/wp-content/uploads/2015/03/background-site.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 26px;
+	margin-right: 10px;
+	font-family: "Calibri";
+}
+
+a:hover {
+	background-color: silver;
+}
+
+.comm {
+	color: red;
+}
+
+.SabauPhoto {
+	display: grid;
+	grid-template-columns: .1fr .9fr;
+}
+
+.SabauComments {
+	display: grid;
+	grid-template-rows: .8fr .2fr;
+	padding: 20px;
+}
+
+.SabauDisplayComments {
+	overflow: auto;
+	height: 200px;
+}
+
+.pozaid {
+	margin: auto;
+}
+
+.hidButton {
+	display: none;
+}
+#back-button {
+	display: none;
+}
+#myCanvas {
+	display: none;
+}
+#gif {
+	position: absolute;
+	display: none;
+}
+
+.menu-photoshoot{
+    margin-left: 25px;
+    margin-right: 25px;
+    display: grid;
+    grid-template-columns: .9fr .1fr;
+}
+.list-gif{
+    height: 135px;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-gap: 5px;
+    padding: 2px;
+    overflow: auto;
+    border: 1px solid rgb(182, 182, 182);
+}
+.gif{
+    margin: 2px;
+    background: rgb(182, 182, 182);
+    height: 110px;
+    width: 110px;
+}
